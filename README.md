@@ -1,11 +1,11 @@
-About multiregex
-================
+About multiregex-feedstock
+==========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/multiregex-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/Quantco/multiregex
 
 Package license: BSD-3-Clause
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/multiregex-feedstock/blob/main/LICENSE.txt)
 
 Summary: Speed up regex matching with non-regex substring "prematchers", similar to Bloom filters.
 
