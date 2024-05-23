@@ -1,5 +1,5 @@
 {% set name = "multiregex" %}
-{% set version = "2.0.1" %}
+{% set version = "2.0.2" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/multiregex-{{ version }}.tar.gz
-  sha256: d3739c4be5583f8b973452f426fc12bb399ca9ba7e28fa696d00d618d12aae5b
+  sha256: 194b499049c52adcb9bade2ed17a93d0278ef60d01cdeb947653a1cc484eebab
 
 build:
   noarch: python
