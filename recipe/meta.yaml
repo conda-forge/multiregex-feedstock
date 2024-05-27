@@ -1,5 +1,5 @@
 {% set name = "multiregex" %}
-{% set version = "2.0.2" %}
+{% set version = "2.0.3" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/multiregex-{{ version }}.tar.gz
-  sha256: 194b499049c52adcb9bade2ed17a93d0278ef60d01cdeb947653a1cc484eebab
+  sha256: 875ecb79cada5ae4c5d26bad1eb3f82f003c3d1d22451363a01c98644a5bf20e
 
 build:
   noarch: python
@@ -17,11 +17,12 @@ build:
 requirements:
   host:
     - pip
-    - python >=3.6
-    - flit-core >=3.2,<4
+    - python >=3.8
+    - setuptools_scm
+    - setuptools
   run:
     - pyahocorasick
-    - python >=3.6
+    - python >=3.8
 
 test:
   imports:
